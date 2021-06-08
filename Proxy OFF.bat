@@ -26,9 +26,6 @@ echo Switching OFF proxy . . .
 echo.
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 0 /f
 set filename="Proxy OFF.bat"
-REM echo Terminating Proxifier . . .
-echo. 
-REM @taskkill /f /im proxifier.exe
 echo. 
 goto end
 
@@ -39,7 +36,6 @@ echo.
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 1 /f
 set filename="Proxy ON.bat"
 echo. 
-REM @start "" "C:\Program Files (x86)\Proxifier\Proxifier.exe"
 goto end
 
 :end
