@@ -1,4 +1,4 @@
-# WindowsProxySwitch
+# WindowsProxySwitch ![visitors](https://visitor-badge.glitch.me/badge?page_id=zubir2k.windowsproxyswitch.visitor-badge)
 Turn ON/OFF Proxy using Windows batch file.
 If you find it frustrating to enable/disable proxy everytime when switching connection from Office to Home,
 Run this batch file to switch on/off proxy automatically. Tested on Windows 7 to Windows 10.
