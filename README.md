@@ -7,6 +7,8 @@ Run this batch file to switch on/off proxy automatically. Tested on Windows 7 to
 Just copy the batch file and place it somewhere easier to run (e.g. your Desktop).
 For first run, it will try and syncronize with current proxy settings. So be sure to run it few times first.
 
+![proxy_switch](https://user-images.githubusercontent.com/1905339/129663497-8546beab-2d16-46de-bf8a-29bfa8ffbab6.png)
+
 ## Indicator:
 The filename will change depending on the current proxy settings 
 1) Proxy ON.bat - proxy is ON
